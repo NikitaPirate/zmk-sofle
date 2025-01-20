@@ -1,6 +1,6 @@
 layers:
   LAYER0:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -25,7 +25,7 @@ layers:
   - I
   - O
   - P
-  - {t: '[', s: '{'}
+  - \
   - $$mdi:keyboard-tab$$
   - A
   - S
@@ -56,11 +56,11 @@ layers:
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: LAYER1}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', h: LAYER2}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: LAYER2}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
   - {t: ']', h: '$$mdi:apple-keyboard-control$$', s: '}'}
@@ -121,8 +121,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -189,8 +189,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
