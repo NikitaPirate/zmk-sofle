@@ -8,30 +8,18 @@
 #include <dt-bindings/zmk/rgb.h>
 
 
-&mmv_input_listener {
-    input-processors = <&zip_xy_scaler 2 1>;
-};
-
-&msc_input_listener {
-    input-processors = <&zip_xy_scaler 2 1>;
-};
-
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 2400  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
 / {
     behaviors {
-        mmv: mouse_move {
-            compatible = "zmk,behavior-mouse-move";
-            #binding-cells = <1>;
+        mmv {
             delay-ms = <0>;
             time-to-max-speed-ms = <500>;
             acceleration-exponent = <2>;
         };
 
-        msc: mouse_scroll {
-            compatible = "zmk,behavior-mouse-scroll";
-            #binding-cells = <1>;
+        msc {
             delay-ms = <0>;                    
             time-to-max-speed-ms = <200>;      
             acceleration-exponent = <1>;        
