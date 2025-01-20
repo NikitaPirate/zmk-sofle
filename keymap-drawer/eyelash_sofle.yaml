@@ -56,11 +56,11 @@ layers:
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-return$$', h: layer1}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-space$$', h: layer1}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', h: '2'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '2'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
   - {t: ']', h: '$$mdi:apple-keyboard-control$$', s: '}'}
