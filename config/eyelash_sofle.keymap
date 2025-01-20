@@ -7,17 +7,14 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
-/*
 
-   &mmv_input_listener {
-       input-processors = <&zip_xy_scaler 2 1>;
-   };
+&mmv_input_listener {
+    input-processors = <&zip_xy_scaler 2 1>;
+};
 
-   &msc_input_listener {
-       input-processors = <&zip_xy_scaler 2 1>;
-   };
-
- */
+&msc_input_listener {
+    input-processors = <&zip_xy_scaler 2 1>;
+};
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 2400  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
