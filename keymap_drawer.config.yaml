@@ -318,7 +318,7 @@ parse_config:
     SQT:
       tap: "'"
       shifted: '"'
-     APOSTROPHE: 
+    APOSTROPHE: 
       tap: "'"
       shifted: '"'
     APOS: 
