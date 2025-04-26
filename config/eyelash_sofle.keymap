@@ -105,6 +105,11 @@
             bindings = <&kp LC(SPACE)>;
             key-positions = <62 63>;
         };
+
+        togaming {
+            bindings = <&tog 3>;
+            key-positions = <30 29 28 27 57>;
+        };
     };
 
     keymap {
@@ -147,6 +152,16 @@
 
             display-name = "LAYER2";
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+        };
+
+        gaming {
+            bindings = <
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4     &kp N5       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp Q   &kp W   &kp E     &kp R      &kp T        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp A   &kp S   &kp D     &kp F      &kp G        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp Z   &kp X   &kp C     &kp V      &kp B        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans  &kp LALT  &kp LCTRL  &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
