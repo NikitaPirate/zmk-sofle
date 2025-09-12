@@ -1,0 +1,703 @@
+{
+  "layout": {
+    "name": "Sofle",
+    "type": "split",
+    "rows": 5,
+    "cols_per_half": 6,
+    "total_keys": 58,
+    "positions": {
+      "0": {
+        "row": 0,
+        "col": 0,
+        "side": "left",
+        "physical_row": 0,
+        "physical_col": 0
+      },
+      "1": {
+        "row": 0,
+        "col": 1,
+        "side": "left",
+        "physical_row": 0,
+        "physical_col": 1
+      },
+      "2": {
+        "row": 0,
+        "col": 2,
+        "side": "left",
+        "physical_row": 0,
+        "physical_col": 2
+      },
+      "3": {
+        "row": 0,
+        "col": 3,
+        "side": "left",
+        "physical_row": 0,
+        "physical_col": 3
+      },
+      "4": {
+        "row": 0,
+        "col": 4,
+        "side": "left",
+        "physical_row": 0,
+        "physical_col": 4
+      },
+      "5": {
+        "row": 0,
+        "col": 5,
+        "side": "left",
+        "physical_row": 0,
+        "physical_col": 5
+      },
+      "6": {
+        "row": 1,
+        "col": 0,
+        "side": "left",
+        "physical_row": 1,
+        "physical_col": 0
+      },
+      "7": {
+        "row": 1,
+        "col": 1,
+        "side": "left",
+        "physical_row": 1,
+        "physical_col": 1
+      },
+      "8": {
+        "row": 1,
+        "col": 2,
+        "side": "left",
+        "physical_row": 1,
+        "physical_col": 2
+      },
+      "9": {
+        "row": 1,
+        "col": 3,
+        "side": "left",
+        "physical_row": 1,
+        "physical_col": 3
+      },
+      "10": {
+        "row": 1,
+        "col": 4,
+        "side": "left",
+        "physical_row": 1,
+        "physical_col": 4
+      },
+      "11": {
+        "row": 1,
+        "col": 5,
+        "side": "left",
+        "physical_row": 1,
+        "physical_col": 5
+      },
+      "12": {
+        "row": 2,
+        "col": 0,
+        "side": "left",
+        "physical_row": 2,
+        "physical_col": 0
+      },
+      "13": {
+        "row": 2,
+        "col": 1,
+        "side": "left",
+        "physical_row": 2,
+        "physical_col": 1
+      },
+      "14": {
+        "row": 2,
+        "col": 2,
+        "side": "left",
+        "physical_row": 2,
+        "physical_col": 2
+      },
+      "15": {
+        "row": 2,
+        "col": 3,
+        "side": "left",
+        "physical_row": 2,
+        "physical_col": 3
+      },
+      "16": {
+        "row": 2,
+        "col": 4,
+        "side": "left",
+        "physical_row": 2,
+        "physical_col": 4
+      },
+      "17": {
+        "row": 2,
+        "col": 5,
+        "side": "left",
+        "physical_row": 2,
+        "physical_col": 5
+      },
+      "18": {
+        "row": 3,
+        "col": 0,
+        "side": "left",
+        "physical_row": 3,
+        "physical_col": 0
+      },
+      "19": {
+        "row": 3,
+        "col": 1,
+        "side": "left",
+        "physical_row": 3,
+        "physical_col": 1
+      },
+      "20": {
+        "row": 3,
+        "col": 2,
+        "side": "left",
+        "physical_row": 3,
+        "physical_col": 2
+      },
+      "21": {
+        "row": 3,
+        "col": 3,
+        "side": "left",
+        "physical_row": 3,
+        "physical_col": 3
+      },
+      "22": {
+        "row": 3,
+        "col": 4,
+        "side": "left",
+        "physical_row": 3,
+        "physical_col": 4
+      },
+      "23": {
+        "row": 3,
+        "col": 5,
+        "side": "left",
+        "physical_row": 3,
+        "physical_col": 5
+      },
+      "24": {
+        "row": 4,
+        "col": 0,
+        "side": "left",
+        "physical_row": 4,
+        "physical_col": 0
+      },
+      "25": {
+        "row": 4,
+        "col": 1,
+        "side": "left",
+        "physical_row": 4,
+        "physical_col": 1
+      },
+      "26": {
+        "row": 4,
+        "col": 2,
+        "side": "left",
+        "physical_row": 4,
+        "physical_col": 2
+      },
+      "27": {
+        "row": 4,
+        "col": 3,
+        "side": "left",
+        "physical_row": 4,
+        "physical_col": 3
+      },
+      "28": {
+        "row": 4,
+        "col": 4,
+        "side": "left",
+        "physical_row": 4,
+        "physical_col": 4
+      },
+      "29": {
+        "row": 0,
+        "col": 7,
+        "side": "right",
+        "physical_row": 0,
+        "physical_col": 7
+      },
+      "30": {
+        "row": 0,
+        "col": 8,
+        "side": "right",
+        "physical_row": 0,
+        "physical_col": 8
+      },
+      "31": {
+        "row": 0,
+        "col": 9,
+        "side": "right",
+        "physical_row": 0,
+        "physical_col": 9
+      },
+      "32": {
+        "row": 0,
+        "col": 10,
+        "side": "right",
+        "physical_row": 0,
+        "physical_col": 10
+      },
+      "33": {
+        "row": 0,
+        "col": 11,
+        "side": "right",
+        "physical_row": 0,
+        "physical_col": 11
+      },
+      "34": {
+        "row": 0,
+        "col": 12,
+        "side": "right",
+        "physical_row": 0,
+        "physical_col": 12
+      },
+      "35": {
+        "row": 1,
+        "col": 7,
+        "side": "right",
+        "physical_row": 1,
+        "physical_col": 7
+      },
+      "36": {
+        "row": 1,
+        "col": 8,
+        "side": "right",
+        "physical_row": 1,
+        "physical_col": 8
+      },
+      "37": {
+        "row": 1,
+        "col": 9,
+        "side": "right",
+        "physical_row": 1,
+        "physical_col": 9
+      },
+      "38": {
+        "row": 1,
+        "col": 10,
+        "side": "right",
+        "physical_row": 1,
+        "physical_col": 10
+      },
+      "39": {
+        "row": 1,
+        "col": 11,
+        "side": "right",
+        "physical_row": 1,
+        "physical_col": 11
+      },
+      "40": {
+        "row": 1,
+        "col": 12,
+        "side": "right",
+        "physical_row": 1,
+        "physical_col": 12
+      },
+      "41": {
+        "row": 2,
+        "col": 7,
+        "side": "right",
+        "physical_row": 2,
+        "physical_col": 7
+      },
+      "42": {
+        "row": 2,
+        "col": 8,
+        "side": "right",
+        "physical_row": 2,
+        "physical_col": 8
+      },
+      "43": {
+        "row": 2,
+        "col": 9,
+        "side": "right",
+        "physical_row": 2,
+        "physical_col": 9
+      },
+      "44": {
+        "row": 2,
+        "col": 10,
+        "side": "right",
+        "physical_row": 2,
+        "physical_col": 10
+      },
+      "45": {
+        "row": 2,
+        "col": 11,
+        "side": "right",
+        "physical_row": 2,
+        "physical_col": 11
+      },
+      "46": {
+        "row": 2,
+        "col": 12,
+        "side": "right",
+        "physical_row": 2,
+        "physical_col": 12
+      },
+      "47": {
+        "row": 3,
+        "col": 7,
+        "side": "right",
+        "physical_row": 3,
+        "physical_col": 7
+      },
+      "48": {
+        "row": 3,
+        "col": 8,
+        "side": "right",
+        "physical_row": 3,
+        "physical_col": 8
+      },
+      "49": {
+        "row": 3,
+        "col": 9,
+        "side": "right",
+        "physical_row": 3,
+        "physical_col": 9
+      },
+      "50": {
+        "row": 3,
+        "col": 10,
+        "side": "right",
+        "physical_row": 3,
+        "physical_col": 10
+      },
+      "51": {
+        "row": 3,
+        "col": 11,
+        "side": "right",
+        "physical_row": 3,
+        "physical_col": 11
+      },
+      "52": {
+        "row": 3,
+        "col": 12,
+        "side": "right",
+        "physical_row": 3,
+        "physical_col": 12
+      },
+      "53": {
+        "row": 4,
+        "col": 8,
+        "side": "right",
+        "physical_row": 4,
+        "physical_col": 8
+      },
+      "54": {
+        "row": 4,
+        "col": 9,
+        "side": "right",
+        "physical_row": 4,
+        "physical_col": 9
+      },
+      "55": {
+        "row": 4,
+        "col": 10,
+        "side": "right",
+        "physical_row": 4,
+        "physical_col": 10
+      },
+      "56": {
+        "row": 4,
+        "col": 11,
+        "side": "right",
+        "physical_row": 4,
+        "physical_col": 11
+      },
+      "57": {
+        "row": 4,
+        "col": 12,
+        "side": "right",
+        "physical_row": 4,
+        "physical_col": 12
+      }
+    }
+  },
+  "layers": {
+    "change_layout_1": [
+      "&kp"
+    ],
+    "change_layout_2": [
+      "&kp"
+    ],
+    "change_layout_3": [
+      "&kp"
+    ],
+    "change_layout_4": [
+      "&kp"
+    ],
+    "togaming": [
+      "&tog"
+    ],
+    "layer0": [
+      "&mt",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&hm",
+      "&hm",
+      "&hm",
+      "&hm",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&hm",
+      "&hm",
+      "&hm",
+      "&hm",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&mt",
+      "&mt",
+      "&mt",
+      "&lt",
+      "&mt",
+      "&kp",
+      "&mt",
+      "&lt",
+      "&kp",
+      "&mt",
+      "&mt"
+    ],
+    "layer_1": [
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&mmv",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&trans",
+      "&kp",
+      "&mkp",
+      "&mkp",
+      "&mkp",
+      "&mkp",
+      "&mmv",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&trans",
+      "&kp",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&mkp",
+      "&mmv",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&trans",
+      "&rgb_ug",
+      "&rgb_ug",
+      "&rgb_ug",
+      "&rgb_ug",
+      "&rgb_ug",
+      "&mmv",
+      "&rgb_ug",
+      "&rgb_ug",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&trans",
+      "&kp",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&mkp",
+      "&trans",
+      "&trans",
+      "&kp",
+      "&trans",
+      "&trans"
+    ],
+    "layer_2": [
+      "&kp",
+      "&bt",
+      "&bt",
+      "&bt",
+      "&bt",
+      "&bt",
+      "&mmv",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&trans",
+      "&trans",
+      "&bt",
+      "&bt",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&mmv",
+      "&trans",
+      "&trans",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&trans",
+      "&out",
+      "&out",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&mmv",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&kp",
+      "&kp",
+      "&trans",
+      "&sys_reset",
+      "&trans",
+      "&bootloader",
+      "&trans",
+      "&trans",
+      "&mmv",
+      "&trans",
+      "&trans",
+      "&sys_reset",
+      "&soft_off",
+      "&bootloader",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&mkp",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans"
+    ],
+    "gaming": [
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&kp",
+      "&kp",
+      "&kp",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans",
+      "&trans"
+    ]
+  },
+  "metadata": {
+    "source_file": "../config/eyelash_sofle.keymap",
+    "keyboard": "eyelash_sofle",
+    "total_keys": 58
+  }
+}
