@@ -101,17 +101,17 @@
 
         togaming {
             bindings = <&tog 3>;
-            key-positions = <>;
+            key-positions = <57 30 29 28 27 27 28 29 30>;
         };
 
         toggle_layer1_1 {
             bindings = <&tog 1>;
-            key-positions = <>;
+            key-positions = <59 60>;
         };
 
         toggle_layer1_2 {
             bindings = <&tog 1>;
-            key-positions = <>;
+            key-positions = <63 62>;
         };
     };
 
