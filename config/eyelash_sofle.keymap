@@ -111,7 +111,7 @@
 
         toggle_layer1_2 {
             bindings = <&tog 1>;
-            key-positions = <66 67 63 62>;
+            key-positions = <>;
         };
     };
 
