@@ -133,11 +133,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6                 &kp F7     &kp F8     &kp F9     &kp F10        &kp DEL
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp LEFT_PARENTHESIS   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_DIVIDE  &kp KP_MULTIPLY
-&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS   &kp KP_PLUS
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp KP_N0              &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp DOT        &kp KP_EQUAL
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans                 &trans     &trans     &trans     &trans
+&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6     &kp F7     &kp F8     &kp F9     &kp F10        &kp DEL
+&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp N9     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_DIVIDE  &kp KP_MULTIPLY
+&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp N0     &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS   &kp KP_PLUS
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp DOT        &kp KP_EQUAL
+&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans     &trans     &trans     &trans     &trans
             >;
 
             display-name = "LAYER1";
