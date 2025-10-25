@@ -113,6 +113,11 @@
             bindings = <&tog 1>;
             key-positions = <63 62>;
         };
+
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <57 56>;
+        };
     };
 
     keymap {
@@ -120,11 +125,11 @@
 
         layer0 {
             bindings = <
-&mt LC(LG(Q)) ESC  &kp N1           &kp N2              &kp N3                  &kp N4            &kp N5       &kp UP_ARROW     &kp N6     &kp N7            &kp N8          &kp N9                     &kp N0                   &kp BACKSPACE
-&kp GRAVE          &kp Q            &kp W               &kp E                   &kp R             &kp T        &kp DOWN_ARROW   &kp Y      &kp U             &kp I           &kp O                      &kp P                    &kp BACKSLASH
-&kp TAB            &hm LCTRL A      &hm LEFT_ALT S      &hm LEFT_GUI D          &hm LEFT_SHIFT F  &kp G        &kp LEFT_ARROW   &kp H      &hm LEFT_SHIFT J  &hm LEFT_GUI K  &hm LEFT_ALT L             &hm LCTRL SEMI           &kp APOS
-&td_caps           &kp Z            &kp X               &kp C                   &kp V             &kp B        &kp RIGHT_ARROW  &kp N      &kp M             &kp COMMA       &kp DOT                    &kp FSLH                 &kp RIGHT_SHIFT
-&kp C_MUTE         &mt LCTRL MINUS  &mt LEFT_ALT EQUAL  &mt LEFT_GUI BACKSPACE  &lt 1 ENTER       &kp SPACE    &kp ENTER        &kp SPACE  &lt 1 ENTER       &kp BACKSPACE   &mt LEFT_ALT LEFT_BRACKET  &mt LCTRL RIGHT_BRACKET
+&mt LC(LG(Q)) ESC  &kp N1           &kp N2              &kp N3                  &kp N4            &kp N5         &kp UP_ARROW     &kp N6       &kp N7            &kp N8          &kp N9                     &kp N0                   &kp BACKSPACE
+&kp GRAVE          &kp Q            &kp W               &kp E                   &kp R             &kp T          &kp DOWN_ARROW   &kp Y        &kp U             &kp I           &kp O                      &kp P                    &kp BACKSLASH
+&kp TAB            &hm LCTRL A      &hm LEFT_ALT S      &hm LEFT_GUI D          &hm LEFT_SHIFT F  &kp G          &kp LEFT_ARROW   &kp H        &hm LEFT_SHIFT J  &hm LEFT_GUI K  &hm LEFT_ALT L             &hm LCTRL SEMI           &kp APOS
+&kp LEFT_BRACKET   &kp Z            &kp X               &kp C                   &kp V             &kp B          &kp RIGHT_ARROW  &kp N        &kp M             &kp COMMA       &kp DOT                    &kp FSLH                 &kp RIGHT_BRACKET
+&kp C_MUTE         &mt LCTRL MINUS  &mt LEFT_ALT EQUAL  &mt LEFT_GUI BACKSPACE  &kp TAB           &lt 1 SPACE    &kp ENTER        &lt 1 SPACE  &kp ENTER         &kp BACKSPACE   &mt LEFT_ALT LEFT_BRACKET  &mt LCTRL RIGHT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
