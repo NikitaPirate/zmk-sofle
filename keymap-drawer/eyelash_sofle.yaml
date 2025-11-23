@@ -263,7 +263,7 @@ layers:
 combos:
 - p: [53, 54]
   k: Ctl+$$mdi:keyboard-space$$
-- p: [57, 30, 29, 28, 27, 27, 28, 29, 30]
+- p: [57, 30, 29, 28, 27]
   k: {t: GAMING, h: toggle}
 - p: [59, 60]
   k: {t: LAYER1, h: toggle}
