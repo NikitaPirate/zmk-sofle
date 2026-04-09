@@ -96,7 +96,7 @@
 
         change_layout_1 {
             bindings = <&kp LC(SPACE)>;
-            key-positions = <17 16 21 22>;
+            key-positions = <17 16>;
         };
 
         togaming {
@@ -114,9 +114,19 @@
             key-positions = <63 62>;
         };
 
-        caps {
+        caps_1 {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <43 42 47 48>;
+            key-positions = <43 42>;
+        };
+
+        change_layout_2 {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <21 22>;
+        };
+
+        caps_2 {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <47 48>;
         };
     };
 
