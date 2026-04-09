@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-control$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, s: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
@@ -40,7 +40,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '''', s: '"'}
-  - {t: '[', s: '{'}
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -261,7 +261,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [53, 54]
+- p: [17, 16, 21, 22]
   k: Ctl+$$mdi:keyboard-space$$
 - p: [57, 30, 29, 28, 27]
   k: {t: GAMING, h: toggle}
@@ -269,5 +269,5 @@ combos:
   k: {t: LAYER1, h: toggle}
 - p: [63, 62]
   k: {t: LAYER1, h: toggle}
-- p: [57, 56]
+- p: [43, 42, 47, 48]
   k: $$mdi:apple-keyboard-caps$$
