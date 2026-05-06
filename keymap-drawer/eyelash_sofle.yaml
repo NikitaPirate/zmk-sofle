@@ -57,7 +57,7 @@ layers:
   - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
   - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: LAYER1}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: LAYER2}
@@ -262,16 +262,28 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [17, 16]
+  k: {t: '[', s: '{'}
+- p: [21, 22]
+  k: {t: ']', s: '}'}
+- p: [29, 30]
+  k: (
+- p: [34, 35]
+  k: )
+- p: [43, 42]
+  k: '{'
+- p: [47, 48]
+  k: '}'
+- p: [30, 31]
   k: Ctl+$$mdi:keyboard-space$$
-- p: [57, 30, 29, 28, 27]
-  k: {t: GAMING, h: toggle}
+- p: [30, 34]
+  k: Ctl+$$mdi:keyboard-space$$
+- p: [33, 34]
+  k: Ctl+Alt+$$mdi:keyboard-space$$
+- p: [31, 33]
+  k: $$mdi:apple-keyboard-caps$$
 - p: [59, 60]
   k: {t: LAYER1, h: toggle}
 - p: [63, 62]
   k: {t: LAYER1, h: toggle}
-- p: [43, 42]
-  k: $$mdi:apple-keyboard-caps$$
-- p: [21, 22]
-  k: Ctl+$$mdi:keyboard-space$$
-- p: [47, 48]
-  k: $$mdi:apple-keyboard-caps$$
+- p: [57, 30, 29, 28, 27]
+  k: {t: GAMING, h: toggle}
