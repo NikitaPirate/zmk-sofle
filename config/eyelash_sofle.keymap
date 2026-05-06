@@ -94,39 +94,69 @@
     combos {
         compatible = "zmk,combos";
 
-        change_layout_1 {
-            bindings = <&kp LC(SPACE)>;
+        symbol_square_open {
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <17 16>;
         };
 
-        togaming {
-            bindings = <&tog 3>;
-            key-positions = <57 30 29 28 27>;
+        symbol_square_close {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <21 22>;
         };
 
-        toggle_layer1_1 {
+        symbol_paren_open {
+            bindings = <&kp LPAR>;
+            key-positions = <29 30>;
+        };
+
+        symbol_paren_close {
+            bindings = <&kp RPAR>;
+            key-positions = <34 35>;
+        };
+
+        symbol_brace_open {
+            bindings = <&kp LBRC>;
+            key-positions = <43 42>;
+        };
+
+        symbol_brace_close {
+            bindings = <&kp RBRC>;
+            key-positions = <47 48>;
+        };
+
+        layout_left {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <30 31>;
+        };
+
+        layout_center {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <30 34>;
+        };
+
+        layout_right {
+            bindings = <&kp LC(LA(SPACE))>;
+            key-positions = <33 34>;
+        };
+
+        caps_home {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <31 33>;
+        };
+
+        layer_toggle_left {
             bindings = <&tog 1>;
             key-positions = <59 60>;
         };
 
-        toggle_layer1_2 {
+        layer_toggle_right {
             bindings = <&tog 1>;
             key-positions = <63 62>;
         };
 
-        caps_1 {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <43 42>;
-        };
-
-        change_layout_2 {
-            bindings = <&kp LC(SPACE)>;
-            key-positions = <21 22>;
-        };
-
-        caps_2 {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <47 48>;
+        gaming_toggle {
+            bindings = <&tog 3>;
+            key-positions = <57 30 29 28 27>;
         };
     };
 
@@ -139,7 +169,7 @@
 &kp GRAVE          &kp Q            &kp W               &kp E                   &kp R             &kp T          &kp DOWN_ARROW   &kp Y        &kp U             &kp I           &kp O                      &kp P                    &kp BACKSLASH
 &kp LCTRL          &hm LCTRL A      &hm LEFT_ALT S      &hm LEFT_GUI D          &hm LEFT_SHIFT F  &lt 1 G        &kp LEFT_ARROW   &lt 2 H      &hm LEFT_SHIFT J  &hm LEFT_GUI K  &hm LEFT_ALT L             &hm LCTRL SEMI           &kp SINGLE_QUOTE
 &kp LEFT_SHIFT     &kp Z            &kp X               &kp C                   &kp V             &kp B          &kp RIGHT_ARROW  &kp N        &kp M             &kp COMMA       &kp DOT                    &kp FSLH                 &kp RIGHT_BRACKET
-&kp C_MUTE         &mt LCTRL MINUS  &mt LEFT_ALT EQUAL  &mt LEFT_GUI BACKSPACE  &kp TAB           &lt 1 SPACE    &kp ENTER        &lt 2 SPACE  &kp ENTER         &kp BACKSPACE   &mt LEFT_ALT LEFT_BRACKET  &mt LCTRL RIGHT_BRACKET
+&kp C_MUTE         &mt LCTRL MINUS  &mt LEFT_ALT EQUAL  &mt LEFT_GUI BACKSPACE  &mt LCTRL TAB     &lt 1 SPACE    &kp ENTER        &lt 2 SPACE  &kp ENTER         &kp BACKSPACE   &mt LEFT_ALT LEFT_BRACKET  &mt LCTRL RIGHT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
