@@ -178,11 +178,11 @@
 
         layer_1 {
             bindings = <
-&trans      &trans           &trans          &trans           &trans           &trans             &trans           &trans     &trans     &trans     &trans     &trans        &trans
-&trans      &kp EXCL         &kp AT          &kp HASH         &kp DOLLAR       &kp PERCENT        &trans           &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LPAR  &kp RPAR      &trans
-&trans      &kp N1           &kp N2          &kp N3           &kp N4           &kp N5             &trans           &kp N6     &kp N7     &kp N8     &kp N9     &kp N0        &trans
-&kp F11     &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &trans           &kp F6     &kp F7     &kp F8     &kp F9     &kp F10       &kp F12
-&trans      &trans           &trans          &trans           &trans           &trans             &trans           &trans     &trans     &kp DEL   &trans     &trans
+&trans   &trans    &trans  &trans    &trans      &trans         &trans  &trans     &trans         &trans        &trans    &trans    &trans
+&trans   &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LPAR  &kp RPAR  &trans
+&trans   &kp N1    &kp N2  &kp N3    &kp N4      &kp N5         &trans  &kp N6     &kp N7         &kp N8        &kp N9    &kp N0    &trans
+&kp F11  &kp F1    &kp F2  &kp F3    &kp F4      &kp F5         &trans  &kp F6     &kp F7         &kp F8        &kp F9    &kp F10   &kp F12
+&trans   &trans    &trans  &trans    &trans      &trans         &trans  &trans     &trans         &kp DEL       &trans    &trans
             >;
 
             display-name = "LAYER1";
@@ -190,11 +190,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans     &trans    &trans     &trans     &trans     &trans
-&trans     &bt BT_CLR    &trans          &trans        &trans        &trans          &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP     &kp END    &trans     &trans
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN   &kp RIGHT  &trans     &trans
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans     &trans    &trans     &trans     &trans     &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans     &trans    &trans     &trans     &trans
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans     &trans    &trans    &trans     &trans  &trans
+&trans     &bt BT_CLR    &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans  &trans
+&trans     &out OUT_USB  &out OUT_BLE  &trans        &trans        &trans          &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans     &sys_reset    &trans        &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans     &trans    &trans    &trans     &trans  &trans
+&trans     &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans     &trans    &trans    &trans     &trans
             >;
 
             display-name = "LAYER2";
@@ -203,11 +203,11 @@
 
         gaming {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4     &kp N5       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB    &kp Q   &kp W   &kp E     &kp R      &kp T        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB    &kp A   &kp S   &kp D     &kp F      &kp G        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp Z   &kp X   &kp C     &kp V      &kp B        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &kp LALT  &kp LCTRL  &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4        &kp N5       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp Q   &kp W   &kp E     &kp R         &kp T        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp A   &kp S   &kp D     &kp F         &kp G        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp Z   &kp X   &kp C     &kp V         &kp B        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans  &kp LALT  &kp LEFT_GUI  &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "GAMING";
